@@ -1,15 +1,47 @@
-.background{}
+body{
+    background:gray;
+}
+
 .dino{
+    background-image: url(imagens/dino.png) ;
     width: 60px;
     height: 60px;
-    background:green;
     position:absolute;
     bottom: 0;
 }
+
+
+.background{
+    position:absolute;
+    bottom:0;
+    background-image: url(imagens/background.png);
+    background-repeat:repeat-x;
+    animation: slideright 600s infinite linear;
+    width:100%;
+    height:200px;
+
+}
+
 .cactus{
     position:absolute;
     width:60px;
     height:60px;
     bottom:0;
-    background:greenyellow
+    background:greenyellow;
+    background-image: url(imagens/cactus.png);
+}
+
+.game-over{
+    text-align:center;
+    color:violet;
+    margin-top:50px;
+    font-family:arial;
+}
+@keyframes slideright {
+    from{
+        background-position:7000%
+    }
+    to{
+        background-position:0
+    }
 }
