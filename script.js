@@ -36,13 +36,18 @@ function pular(){
 }
 
 function criandoCactus(){
+
+    const arrCores = ['#f00', '#0f0', '#0ff'];
     const cactus=document.createElement('div')
+
     let posicaoCactus=1000
     let randomTime=Math.random() * 6000
 
     cactus.classList.add('cactus')
     cactus.style.left=1000 + 'px'
     background.appendChild(cactus)
+
+
 
     let intervaloEsquerda=setInterval(()=>{
 
