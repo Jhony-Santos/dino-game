@@ -3,7 +3,7 @@ body{
 }
 
 .dino{
-    background-image: url(imagens/dino.png) ;
+    background-image: url(imagens/dinoEu.png) ;
     width: 60px;
     height: 60px;
     position:absolute;
@@ -14,7 +14,7 @@ body{
 .background{
     position:absolute;
     bottom:0;
-    background-image: url(imagens/background.png);
+    background-image: url(imagens/planoFundo.jpg);
     background-repeat:repeat-x;
     animation: slideright 600s infinite linear;
     width:100%;
@@ -24,11 +24,11 @@ body{
 
 .cactus{
     position:absolute;
-    width:60px;
-    height:60px;
+    width:80px;
+    height:80px;
     bottom:0;
     background:greenyellow;
-    background-image: url(imagens/cactus.png);
+    background-image: url(imagens/montanha.jpg);
 }
 
 .game-over{
